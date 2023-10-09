@@ -1,13 +1,13 @@
 import java.util.ArrayList;
 import java.util.Stack;
 
-public class Timsort_Starter implements TimsortADT{
+public class Timsort implements TimsortADT{
     private Stack<TimsortNumber> s;
     private ArrayList<Integer> list;
     private ArrayList<TimsortNumber> runs;
     private int minRun;
 
-    public Timsort_Starter(ArrayList<Integer> a, int minRun) {
+    public Timsort(ArrayList<Integer> a, int minRun) {
         s = new Stack<>();
         this.list = a;
         this.minRun = minRun;
